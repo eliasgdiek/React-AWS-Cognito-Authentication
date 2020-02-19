@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"foraweb64c1a673": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

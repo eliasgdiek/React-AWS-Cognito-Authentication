@@ -1,0 +1,22 @@
+{
+    "foraenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fora-web-foraenv-83829-authRole",
+            "UnauthRoleArn": "arn:aws:iam::598828267186:role/amplify-fora-web-foraenv-83829-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::598828267186:role/amplify-fora-web-foraenv-83829-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-fora-web-foraenv-83829-deployment",
+            "UnauthRoleName": "amplify-fora-web-foraenv-83829-unauthRole",
+            "StackName": "amplify-fora-web-foraenv-83829",
+            "StackId": "arn:aws:cloudformation:us-east-2:598828267186:stack/amplify-fora-web-foraenv-83829/75434cd0-4ff8-11ea-9270-0247ef85be9c",
+            "AmplifyAppId": "dnp0uipaxmq0l"
+        },
+        "categories": {
+            "auth": {
+                "foraweb64c1a673": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"188927578921962\",\"client_secret\":\"edb612dff67188d61355f566ce6771dd\"},{\"ProviderName\":\"Google\",\"client_id\":\"1090681979022-m23vq8jhav18nhkn5ktg0p7i9hrr255u.apps.googleusercontent.com\",\"client_secret\":\"kGytSoY8TIIqd0pHAcpCx0rb\"}]"
+                }
+            }
+        }
+    }
+}

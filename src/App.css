@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+html,
+body .App {
+  background: #e4e4e4;
+}
+.show-link {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+.kep-login-facebook.metro {
+  border-radius: 0;
+  width: 100%;
+}
+.no-account {
+  padding: 15px 20px;
+}
+
+button.social-login {
+  width: 100%;
+  margin-top: 12px;
+  height: 60px;
+}
+
+.social-login .social-twitter {
+  border: none;
+  margin-top: 12px;
+  width: 100%;
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+div.btn-twitter {
+  background: #00acee;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0075a2;
+}
+div.btn-twitter:link,
+div.btn-twitter:visited {
+  color: #fff;
+}
+div.btn-twitter:active,
+div.btn-twitter:hover {
+  background: #0075a2;
+  color: #fff;
+}
+
+.contry-code.form-control {
+  width: 60px;
+}
+
+.phone-code {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-code #phone_number {
+  margin-top: 32px;
+}
+
+label.form-label {
+  width: 100%;
+  min-width: 150px;
+}
+
+.phone-code .form-group:first-child {
+  padding: 0;
+  width: 30%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+span.error {
+  font-size: 13px;
+  color: red;
+}
